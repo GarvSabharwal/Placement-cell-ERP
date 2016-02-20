@@ -1,0 +1,52 @@
+body { background-image: url(../../images/skins/green.jpg); }
+.colorme {color:#3f742b;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: #3f742b;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#3f742b;}
+.flyout {border-top:2px solid #3f742b;}
+.sectiontitle {border-left: 4px solid #3f742b;}
+::-moz-selection{background:#3f742b;color:#fff;}
+::selection{background:#3f742b;color:#fff;}
+.ca-menu li:hover .ca-main {color: #3f742b;}
+.topborder { border-top:4px solid #3f742b;}
+.readmore {background:#3f742b;}
+ #subheader {background: #18A7B5;border-top: 1px solid #3f742b; color: #eee;}
+ #subheader a {color: #eee;}
+ #subheader a:hover {color: #fff;}
+ .readmore {background:#3f742b;}
+ #testimonials blockquote cite {color:#3f742b;}
+ .tags {background:#333;}
+ ul.pagination li.current a {background: #3f742b;}
+.saymore {color:#3f742b;}
+.submit {background:#3f742b;} 
+dl.tabs dd.active { border-bottom: 3px solid #3f742b;}
+ul.accordion > li.active {border-top: 3px solid #3f742b;}
+div.alert-box.default { background-color: #3f742b;}
+.slide {	margin: 0;	padding: 0;	border-top: solid 4px #3f742b;}
+.btn-slide {	background:#3f742b url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: #3f742b url(../../images/minus.png) no-repeat;}
+#footer {border-top:#3f742b 4px solid;}
+.back-top a:hover{background-color: #3f742b;}
+.sf-shadow ul {border-top:2px solid #3f742b;}
+.panel {border-left:4px solid #3f742b;}
+.colorbackground {background:#3f742b;}
+a.projectdetail { background: #3f742b;opacity:0.8;}
+a.projectdetail:hover { background: #3f742b;opacity:1.0;}
+#testimonials {border-left: solid 6px #3f742b;}
+.ei-title h2{background:#3f742b;}
+.box .maincontent header { background:#3f742b; }
+.login-cont {
+	box-shadow:2px 2px 5px #3f742b;
+	-webkit-box-shadow:2px 2px 5px #3f742b;
+	-moz-box-shadow:2px 2px 5px #3f742b;
+	-ms-box-shadow:2px 2px 5px #3f742b;
+	-o-box-shadow:2px 2px 5px #3f742b;
+	background:url(../../images/skins/login/green.png);
+}
+.login-cont input, .login-cont select {
+	box-shadow:inset 1px 1px 5px #3f742b;
+	-webkit-box-shadow:inset 1px 1px 5px #3f742b;
+	-moz-box-shadow:inset 1px 1px 5px #3f742b;
+	-ms-box-shadow:2px 2px 5px #3f742b;
+	-o-box-shadow:inset 1px 1px 5px #3f742b;
+}

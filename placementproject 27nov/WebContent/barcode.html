@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+* {
+color: #7F7F7F;
+font-family: Arial, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+#config {
+overflow: auto;
+margin-bottom: 10px;
+}
+.config {
+float: left;
+width: 200px;
+height: 250px;
+border: 1px solid #000;
+margin-left: 10px;
+}
+.config .title {
+font-weight: bold;
+text-align: center;
+}
+.config .barcode2D,  #miscCanvas {
+display: none;
+}
+#submit {
+clear: both;
+}
+#barcodeTarget,  #canvasTarget {
+margin-top: 20px;
+}
+</style>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="javascript/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="javascript/jquery-barcode.js"></script>
+<script type="text/javascript">
+    
+      function generateBarcode(){
+        var value = $("#barcodeValue").val();
+        
+      
+        
+		
+		
+        var settings = {
+          output:"css",
+          bgColor: $("#FFFFFF").val(),
+          color: $("#000000").val(),
+          barWidth: $("1").val(),
+          barHeight: $("50").val(),
+          moduleSize: $("5").val(),
+          
+         
+        };
+        
+         
+          $("#barcodeTarget").html("").show().barcode("1hjdfhdjhfjdh", "code128", settings);
+        
+      }
+          
+      
+      
+      
+      $(document).ready(generateBarcode);
+    </script>
+<title>jQuery Barcode Plugin Examples</title>
+</head>
+<body>
+
+<div id="barcodeTarget" class="barcodeTarget" style="margin:100px auto;"></div>
+
+
+</body>
+</html>

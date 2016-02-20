@@ -1,0 +1,52 @@
+body { background-image: url(../../images/skins/black.jpg); }
+.colorme {color:#F47F6E;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: #F47F6E;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#F47F6E;}
+.flyout {border-top:2px solid #F47F6E;}
+.sectiontitle {border-left: 4px solid #F47F6E;}
+::-moz-selection{background:#F47F6E;color:#fff;}
+::selection{background:#F47F6E;color:#fff;}
+.ca-menu li:hover .ca-main {color: #F47F6E;}
+.topborder { border-top:4px solid #F47F6E;}
+.readmore {background:#F47F6E;}
+ #subheader {background: #18A7B5;border-top: 1px solid #F47F6E; color: #eee;}
+ #subheader a {color: #eee;}
+ #subheader a:hover {color: #fff;}
+ .readmore {background:#F47F6E;}
+ #testimonials blockquote cite {color:#F47F6E;}
+ .tags {background:#333;}
+ ul.pagination li.current a {background: #F47F6E;}
+.saymore {color:#F47F6E;}
+.submit {background:#F47F6E;} 
+dl.tabs dd.active { border-bottom: 3px solid #F47F6E;}
+ul.accordion > li.active {border-top: 3px solid #F47F6E;}
+div.alert-box.default { background-color: #F47F6E;}
+.slide {	margin: 0;	padding: 0;	border-top: solid 4px #F47F6E;}
+.btn-slide {	background:#F47F6E url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: #F47F6E url(../../images/minus.png) no-repeat;}
+#footer {border-top:#F47F6E 4px solid;}
+.back-top a:hover{background-color: #F47F6E;}
+.sf-shadow ul {border-top:2px solid #F47F6E;}
+.panel {border-left:4px solid #F47F6E;}
+.colorbackground {background:#F47F6E;}
+a.projectdetail { background: #F47F6E;opacity:0.8;}
+a.projectdetail:hover { background: #F47F6E;;opacity:1.0;}
+#testimonials {border-left: solid 6px #F47F6E;}
+.ei-title h2{background:#000000;}
+.box .maincontent header { background:#F47F6E; }
+.login-cont {
+	box-shadow:2px 2px 5px #F47F6E;
+	-webkit-box-shadow:2px 2px 5px #F47F6E;
+	-moz-box-shadow:2px 2px 5px #F47F6E;
+	-ms-box-shadow:2px 2px 5px #F47F6E;
+	-o-box-shadow:2px 2px 5px #F47F6E;
+	background:url(../../images/skins/login/black.png);
+}
+.login-cont input, .login-cont select {
+	box-shadow:inset 1px 1px 5px #F47F6E;
+	-webkit-box-shadow:inset 1px 1px 5px #F47F6E;
+	-moz-box-shadow:inset 1px 1px 5px #F47F6E;
+	-ms-box-shadow:2px 2px 5px #F47F6E;
+	-o-box-shadow:inset 1px 1px 5px #F47F6E;
+}

@@ -1,0 +1,52 @@
+body { background-image: url(../../images/skins/maroon.jpg); }
+.colorme {color:#5e0606;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: #5e0606;}
+.nav-bar > li.active > a { }
+ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#5e0606;}
+.flyout {border-top:2px solid #5e0606;}
+.sectiontitle {border-left: 4px solid #5e0606;}
+::-moz-selection{background:#5e0606;color:#fff;}
+::selection{background:#5e0606;color:#fff;}
+.ca-menu li:hover .ca-main {color: #5e0606;}
+.topborder { border-top:4px solid #5e0606;}
+.readmore {background:#5e0606;}
+ #subheader {background: #18A7B5;border-top: 1px solid #5e0606; color: #eee;}
+ #subheader a {color: #eee;}
+ #subheader a:hover {color: #fff;}
+ .readmore {background:#5e0606;}
+ #testimonials blockquote cite {color:#5e0606;}
+ .tags {background:#333;}
+ ul.pagination li.current a {background: #5e0606;}
+.saymore {color:#5e0606;}
+.submit {background:#5e0606;} 
+dl.tabs dd.active { border-bottom: 3px solid #5e0606;}
+ul.accordion > li.active {border-top: 3px solid #5e0606;}
+div.alert-box.default { background-color: #5e0606;}
+.slide {	margin: 0;	padding: 0;	border-top: solid 4px #5e0606;}
+.btn-slide {	background:#5e0606 url(../../images/plus.png) no-repeat;}
+.btn-slide.active { background: #5e0606 url(../../images/minus.png) no-repeat;}
+#footer {border-top:#5e0606 4px solid;}
+.back-top a:hover{background-color: #5e0606;}
+.sf-shadow ul {border-top:2px solid #5e0606;}
+.panel {border-left:4px solid #5e0606;}
+.colorbackground {background:#5e0606;}
+a.projectdetail { background: #5e0606;opacity:0.8;}
+a.projectdetail:hover { background: #5e0606;opacity:1.0;}
+#testimonials {border-left: solid 6px #5e0606;}
+.ei-title h2{background:#5e0606;}
+.box .maincontent header { background:#5e0606; }
+.login-cont {
+	box-shadow:2px 2px 5px #5e0606;
+	-webkit-box-shadow:2px 2px 5px #5e0606;
+	-moz-box-shadow:2px 2px 5px #5e0606;
+	-ms-box-shadow:2px 2px 5px #5e0606;
+	-o-box-shadow:2px 2px 5px #5e0606;
+	background:url(../../images/skins/login/maroon.png);
+}
+.login-cont input, .login-cont select {
+	box-shadow:inset 1px 1px 5px #5e0606;
+	-webkit-box-shadow:inset 1px 1px 5px #5e0606;
+	-moz-box-shadow:inset 1px 1px 5px #5e0606;
+	-ms-box-shadow:2px 2px 5px #5e0606;
+	-o-box-shadow:inset 1px 1px 5px #5e0606;
+}
